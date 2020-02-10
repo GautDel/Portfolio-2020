@@ -1,0 +1,28 @@
+.work-container {
+  .date {
+    font-size: 2.2rem;
+  }
+
+  .time {
+    letter-spacing: 0.2rem;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    .code {
+      font-weight: 300;
+      font-size: 2rem;
+      color: rgba($neonRed, 0.6);
+    }
+  }
+
+.learn-container {
+  position: relative;
+  align-self: flex-start;
+  width: 100%;
+  margin-top: 10rem;
+  img {
+    margin-left: 2%;
+    width: 70%;
+  }
+}
+}

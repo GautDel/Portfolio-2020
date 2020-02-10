@@ -1,0 +1,69 @@
+.about-container {
+  .technologies {
+    color: $neonGreen;
+    font-size: 1.3rem;
+  }
+
+  .about-image {
+    align-self: center;
+    position: relative;
+    margin-top: 10rem;
+    width: 60%;
+    
+
+    .filter {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($neonRed, 0.3);
+      z-index: 2;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: rgba($neonRed, 0);
+      }
+    }
+    
+    img {
+      width: 100%;
+    }
+  }
+
+
+  .about-image-frame {
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    z-index: 3;
+    transition: all 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &:before {
+      position: absolute;
+      width: 15%;
+      height: 15%;
+      top: -1.5rem;
+      left: -1.5rem;
+      content: "";
+      border-top: 0.6rem solid $neonRed;
+      border-left: 0.6rem solid $neonRed;
+    }
+
+    &:after {
+      position: absolute;
+      width: 15%;
+      height: 15%;
+      right: -1.5rem;
+      bottom: -1.5rem;
+      content: "";
+      border-right: 0.6rem solid $neonRed;
+      border-bottom: 0.6rem solid $neonRed;
+    }
+  }
+}
+

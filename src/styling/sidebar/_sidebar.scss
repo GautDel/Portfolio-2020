@@ -1,0 +1,37 @@
+
+@media (min-width: 1300px) {
+.side-bar {
+  position: fixed;
+  bottom: 0;
+  right: 8%;
+  transform-origin: 100% 100%;
+  transform: rotate(90deg);
+  display: flex;
+  animation: slideSidebar 0.8s 1.2s backwards;
+  justify-content: center;
+  
+  .email {
+    border: 0.2rem solid rgba($neonRed, 0.1);
+    color: #ffffff;
+    font-size: 1.6rem;
+    padding: 1rem;
+    transition: all 0.3s;
+    margin-right: 0.4rem;
+
+    &:hover {
+      color: $neonGreen;
+      border: 0.2rem solid rgba($neonRed, 1);
+      transform: scale(1.03);
+    }
+  }
+
+  .bar {
+    align-self: center;
+    background-color: $neonRed;
+    min-width: 15vh;
+    height: 0.6rem;
+  }
+}
+
+}
+  

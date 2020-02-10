@@ -1,0 +1,471 @@
+// Small phones in Landscape
+@media (max-width: 600px) and (orientation: landscape) {
+  .container {
+    margin-bottom: 25%;
+  }
+
+  .text-container {
+    width: 70%;
+  }
+
+  .about-container {
+    .about-image {
+      width: 40%;
+    }
+  }
+
+  .work-container {
+    .learn-container {
+      img {
+        width: 40%;
+      }
+    }
+  }  
+
+  footer {
+    padding: 0 3%;
+  }
+
+}
+
+// landscape phones + Small Tablets
+@media (min-width: 650px) {
+  .container {
+    margin-bottom: 20%;
+  }
+
+  .text-container {
+    width: 70%;
+  }
+
+  .about-container {
+    .about-image {
+      width: 35%;
+    }
+  }
+
+  .work-container {
+    .learn-container {
+      img {
+        width: 40%;
+      }
+    }
+  }
+
+  .form-container {
+    form {
+      height: 60rem;
+
+      button {
+        width: 70%;
+      }
+    }
+    .info-container {
+      p {
+        font-size: 1.6rem;
+      }
+    }
+    
+  }
+}
+
+// Tablets in Landscape + Smaller laptops
+@media (min-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4 {
+    font-size: 2.8rem;
+  }
+
+  p {
+    color: $grey;
+    font-size: 2.2rem;
+  }
+  
+  .mobile-nav {
+    display: none;
+  }
+  
+
+  .text-container {
+    width: 90%;
+  }
+
+  .column {
+    width: 55%;
+  }
+
+  .about-container {
+    flex-direction: row;
+    .about-image { 
+      width: 30%;
+      margin-top: 0;
+      margin-left: 10%;
+    }
+  }
+
+  .experience-container {
+
+    .ui-container {
+      flex-direction: row; 
+      justify-content: space-around; 
+      height: 53rem;
+
+    
+      .buttons-container {
+        height: 100%;
+        padding: 1rem 5rem 1rem 0;
+        width: 40%;
+    
+        p {
+          font-size: 1.5rem;
+        }
+      }
+
+      .border-left {
+        border-top: none;
+        border-left: 1px solid rgba($neonRed, 0.3);
+      }
+    
+      .display-container {
+        width: 50%;
+        height: 100%;
+        padding-left: 4rem;
+    
+        .image {
+          margin-bottom: 2rem;
+        }
+    
+        .tech {
+          align-self: flex-start;
+          text-align: left;
+          font-size: 1.3rem;
+          margin-bottom: 1rem;
+          
+          .code-border {
+            padding: 0 1rem;
+          }
+        }
+    
+        .text {
+          p {
+            text-align: left;
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }  
+  }
+
+  .work-container {
+    flex-direction: row;
+      .date {
+        font-size: 2.8rem;
+      }
+  
+      .time {
+        font-size: 2.6rem;
+  
+        .code {
+          font-size: 2.8rem;
+        }
+      }
+  
+    .learn-container {
+      position: relative;
+      align-self: center;
+      width: 30%;
+      margin-top: 0;
+      margin-left: 10%;
+      
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .form-container {
+    flex-direction: row;
+
+    .contact-container {
+      width: 50%;
+    }
+    form {
+      padding: 2rem 1rem;
+      min-height: 70rem;
+  
+      p {
+        font-size: 2rem;
+      }
+  
+      label {
+        color: $neonRed;
+        font-size: 2.2rem;
+      }
+  
+      input {
+        font-size: 2rem;
+      }
+  
+      button {
+        font-size: 2rem;
+        width: 80%;
+        line-height: 4rem;
+      }
+  
+      .code {
+        font-weight: 400;
+      }
+  
+      .yn {
+        letter-spacing: 0.8rem;
+        margin-left: 1.6rem;
+      }
+  
+      .input-field {
+        margin: 3rem 0;
+  
+        textarea {
+          font-size: 1.8rem;
+          padding: 0.5rem 0.5rem;
+          &:hover {
+            cursor: crosshair;
+          }
+        }
+      }
+    }
+  
+    .info-container {
+      align-self: center;
+      margin-left: 10%;
+      margin-top: 0;
+  
+      p {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  footer {
+    width: 100%;
+    p {
+      font-size: 1.8em;
+    }
+  }
+}
+
+
+@media (min-width: 1300px) {
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .show-nav {
+    animation: showNav 0.5s;
+  }
+  
+  .hide-nav {
+    animation: hideNavbar 0.5s forwards;
+  }
+
+  .container {
+    height: 100vh;
+  }
+
+  .text-container {
+    width: 70%;
+  }
+
+  .work-container {
+
+    .learn-container {
+      margin-left: 15%;
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+  .form-container {
+    form {
+      height: 70rem;
+    }
+    .info-container {
+      margin-left: 10%;
+    }
+  }
+}
+
+@media (min-width: 2000px) {
+
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 4rem;
+  }
+  
+  h3 {
+    font-size: 5rem;
+  }
+  
+  h4 {
+    font-size: 3rem;
+  }
+
+  p {
+    color: $grey;
+    font-size: 3rem;
+  } 
+
+  a {
+    font-size: 4rem;
+  }
+
+  .container {
+    height: 100vh;
+    margin-bottom: 0;
+  }
+
+  .text-container {
+    width: 70%;
+  }
+
+  .desktop-nav {
+    .typewriter-container {
+      width: 20rem;
+      .code {
+        font-size: 2.8rem;
+      }
+    }
+  }
+
+  .border-left {
+    span {
+      font-size: 3rem;
+    }  
+  }
+
+  .intro-container {
+    margin-top: 0;
+  }
+
+  .about-container {
+    .technologies {
+      font-size: 2.5rem;
+    }
+  }
+
+  .experience-container {
+    .ui-container {
+      height: 80rem;
+      .display-container {
+        .image {
+          width: 100%;
+        }
+        .tech {
+          font-size: 2.5rem;
+        }
+        .text {
+          p {
+            font-size: 2rem;
+          }
+          
+        }
+      }
+
+      .buttons-container {
+        .mobile-caret {
+          font-size: 2rem;
+        }
+    
+        p {
+          font-size: 2rem;
+        }
+        
+        .button {
+          padding: 2rem;
+          h6 {
+            font-size: 2.5rem;
+          }
+        }  
+      }
+    }
+  }
+
+  .form-container {
+    .date, .green {
+      font-size: 2.3rem;
+    }
+
+    p {
+      .code {
+        font-size: 2rem;
+      }
+    }
+    form {
+      min-height: 80rem;
+      width: 70%;
+      .input-field {
+        width: 90%;
+        label {
+          font-size: 2.5rem;
+        }
+
+        input {
+          font-size: 2.5rem;
+        }
+
+        textarea {
+          font-size: 2.5rem;
+        }
+      }
+    }
+    .info-container {
+      margin-left: 15%;
+      p {
+        font-weight: 400;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .side-menu {
+    .side-menu-item {
+      padding: 4rem 5rem;
+    }
+  }
+
+  .side-bar { 
+    .email {
+      font-size: 2.5rem ;
+    }
+  
+    .bar {
+      height: 1rem;
+    }
+  }
+  
+  footer {
+    p {
+      font-size: 3rem;
+    }
+  }
+    
+}

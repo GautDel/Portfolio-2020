@@ -1,0 +1,253 @@
+@keyframes energize {
+  0% {
+    stroke: $neonRedFade;
+  }
+
+  100% {
+    stroke: $neonRed;
+  }
+}
+
+@keyframes energizeLetter {
+  0% {
+    color: $neonRedFade;
+    opacity: 0;
+  }
+
+  100% {
+    color: $neonRed;
+    opacity: 1;
+  }
+}
+
+@keyframes energizeBorder {
+  0% {
+    border: 0.3rem solid rgba($neonRed, 0.3);;
+  }  
+
+  100% {
+    border: 0.3rem solid rgba($neonRed, 1);
+  } 
+}
+
+@keyframes hideBorder {
+  0% {
+    border: 0.3rem solid rgba($neonRed, 1);
+  } 
+
+  100% {
+    border: 0.3rem solid rgba($neonRed, 0);
+  } 
+}
+
+@keyframes loadEnergy {
+  0% {
+    left: -100rem;
+    width: 20rem;
+  }
+
+  90% {
+    left: 40%;
+  }
+
+
+  75% {
+    width: 10rem;
+  }
+
+
+  95% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 95%;
+    width: 0.5rem;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeLetter {
+  0% {
+    transform-origin: center;
+    font-size: 10rem;
+  }
+
+  100% {
+    transform-origin: center;
+    font-size: 0;
+  }
+}
+
+@keyframes fadePolygon {
+  0% {
+    transform-origin: center;
+    transform: scale(1)
+  }
+
+  100% {
+    transform-origin: center;
+    transform: scale(0);
+  }
+}
+
+@keyframes energize {
+  0% {
+    stroke: $neonRedFade;
+  }
+
+  100% {
+    stroke: $neonRed;
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes typing {
+  0% {
+    width:0;
+  }
+
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes typer {
+  0% {
+    left: 25%;
+  }
+
+  100% {
+    left: 80%;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes navDown {
+  0% {
+    transform: translateY(-10vh);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes scaleIntro {
+  0% {
+    opacity: 0;
+    transform-origin: center center;
+    transform: scale(0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform-origin: center center;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideSidebar {
+  0% {
+    transform-origin: 100% 100%;
+    transform: rotate(90deg) translateX(100%);
+  }
+  
+  100% {
+    transform-origin: 100% 100%;
+    transform: rotate(90deg) translateX(0);
+  }
+}
+
+@keyframes moveBorder {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-2rem, -2rem);
+  }
+}
+
+@keyframes showDetails {
+  0% {
+    width: 5rem;
+    opacity: 0;
+  }
+
+  100% {
+    width: 20rem;
+    opacity: 1;
+  }
+}
+
+@keyframes slideSidemenu {
+  0%{ 
+    transform: translate(-150%, -50%);
+  }
+
+  100% {
+    transform: translate(0, -50%);
+  }
+}
+
+@keyframes showNav {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hideNavbar {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+    background-color: $black;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes buttonBlink {
+  0% {
+    border: 0.1rem solid rgba($neonRed, 0.3);
+  }
+
+  50% {
+    border: 0.1rem solid rgba($neonRed, 1);
+  }
+
+  100% {
+    border: 0.1rem solid rgba($neonRed, 0.3);
+  }
+}

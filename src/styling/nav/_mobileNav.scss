@@ -1,0 +1,124 @@
+
+
+
+/* mixins */
+@mixin box-sizing($box-sizing: border-box) {
+	-webkit-box-sizing: $box-sizing;
+	-moz-box-sizing: $box-sizing;
+	box-sizing: $box-sizing;
+}
+
+@mixin center-vertically($position: absolute) {
+	position: $position;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+@mixin text-size-adjust {
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+@mixin transform($transform) {
+	-ms-transform: $transform;
+	-webkit-transform: $transform;
+	transform: $transform;
+}
+
+@mixin transition($parameters: all 0.5s ease) {
+	-webkit-transition: $parameters;
+	-moz-transition: $parameters;
+	-ms-transition: $parameters;
+	-o-transition: $parameters;
+	transition: $parameters;
+}
+
+@mixin user-select {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+
+/* nav toggle */
+.nav-toggle {
+	@include user-select;
+	height: 5 * $nav-toggle-bar-height;
+	right: 2rem;
+	position: fixed;
+	top: 3rem;
+	width: $nav-toggle-bar-width;
+	z-index: $z-nav-toggle;
+	animation: navDown 1s forwards;
+
+	.nav-toggle-bar,
+	.nav-toggle-bar::after,
+	.nav-toggle-bar::before {
+		@include center-vertically;
+		@include transition(all 0.5s ease);
+		background: $neonRed;
+		content: '';
+		height: $nav-toggle-bar-height;
+    width: 80%;
+	}
+	.nav-toggle-bar { margin-top: 0; }
+	.nav-toggle-bar::after { margin-top: 2.5 * $nav-toggle-bar-height; }
+	.nav-toggle-bar::before { margin-top: -2.5 * $nav-toggle-bar-height; }
+	&.expanded .nav-toggle-bar { background: transparent; }
+	&.expanded .nav-toggle-bar::after,
+	&.expanded .nav-toggle-bar::before {
+		background: $neonRed;
+		margin-top: 0;
+	}
+	&.expanded .nav-toggle-bar::after { @include transform(rotate(45deg)); }
+	&.expanded .nav-toggle-bar::before { @include transform(rotate(-45deg)); }
+}
+
+/* nav */
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	@include transition(right 0.5s ease);
+	background-color: $black;
+	font-size: 2rem;
+	height: 101vh;
+	right: -$nav-width;
+	padding: 6rem 2rem 2rem 2rem;
+	position: fixed;
+  top: 0;
+	width: $nav-width;
+	z-index: $z-nav;
+	&.expanded { right: 0; }
+
+	ul {
+		@include center-vertically;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		
+    
+    li {
+			padding: 15% 0;
+			text-align: center;
+			a {
+				color: $neonGreen;
+				text-decoration: none;
+
+				&:hover {
+					opacity: 0.8;
+				}
+			}
+    }
+	}
+}
+
+.mobile-caret {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.8rem;
+}
+

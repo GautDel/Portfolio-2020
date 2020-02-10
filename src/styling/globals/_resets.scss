@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  cursor: url("./images/cursor.png"), auto;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  background-color: $black;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  color: $neonGreen;
+  font-size: 2.2rem;
+}
+
+h2 {
+  color: $grey;
+  font-size: 1.6rem;
+}
+
+h3 {
+  color: $neonGreen;
+  font-size: 2rem;
+}
+
+h4 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+h6 {
+  color: $neonGreen;
+  font-size: 2rem;
+}
+
+p {
+  color: $grey;
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 200;
+}
+
+a, button {
+  cursor: url("./images/cursor-hover.png"), auto;
+  text-decoration: none !important;
+}
+
+.App {
+  position: relative;
+  height: 100%;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.desktop-menu {
+  display: none;
+  nav {
+    display: none;
+
+    ul {
+      display: none;
+      li {
+        display: none;
+      }
+    }
+  }
+}
+
+
+.side-bar {
+  display: none;
+}
+
+.side-menu {
+  display: none;
+}

@@ -1,0 +1,206 @@
+[
+  {
+    "id": 0,
+    "name": "PartumMedia",
+    "img": "/images/partummedia.jpg",
+    "alt": "Business website",
+    "codeLink": "https://github.com/GautDel/PartumMedia-Business-Site",
+    "webLink": "http://www.partummedia.com",
+    "tech": [
+      "HTML5",
+      "Bootstrap",
+      "SCSS",
+      "JS",
+      "PHP "
+    ],
+    "para1": "My personal business site.",
+    "para2": "One of my latest projects. Creating this website taught me many valuable lessons, such as color psychology for call-to-actions, fonts, and backgrounds as well as researching client necessities and providing them with a UI that meets those needs."
+  },
+  {
+    "id": 1,
+    "name": "Cork Blog",
+    "img": "/images/cork-blog.jpg",
+    "alt": "Blog website",
+    "codeLink": "https://github.com/GautDel/Cork-Blog",
+    "webLink": "http://www.corkblog.ie",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "PHP",
+      "Wordpress "
+    ],
+    "para1": "My personal blog site where I post about web design and development topics that interest me.",
+    "para2": "This build is 100% custom, created in Wordpress using my own personalized theme. I wanted to dip my toes into PHP, and this was the result. While simple, it taught me much about PHP and Wordpress in general, and I can't wait to get started on another project."
+  },
+  {
+    "id": 2,
+    "name": "Ecotech",
+    "img": "/images/ecotech.jpg",
+    "alt": "Ecotech website",
+    "codeLink": "NA",
+    "webLink": "http://partummedia.com/ecotech",
+    "tech": [
+      "HTML5",
+      "SCSS",
+      "Bootstrap",
+      "JS "
+    ],
+    "para1": "An in progress construction website for a client.",
+    "para2": "From sitting down and discussing client needs, wireframes, and template ideas to conception, the client and I have been working hand in hand to create a website that fits their needs."
+  },
+  {
+    "id": 3,
+    "name": "Torino",
+    "img": "/images/torino.png",
+    "alt": "Torino cafe website",
+    "codeLink": "NA",
+    "webLink": "http://www.cafetorino.ie",
+    "tech": [
+      "HTML5",
+      "CSS",
+      "JS "
+    ],
+    "para1": "A pro-bono project for a local Italian cafe.",
+    "para2": "My very first project for the cafe I was working at. This project is what ended up taking me to where I am today. Within a month of my enrollment into Openclassroom's front-end web development course, I began work on my first, real-world project."
+  },
+  {
+    "id": 4,
+    "name": "Woya",
+    "img": "/images/woya.jpg",
+    "alt": "Woya game",
+    "codeLink": "https://github.com/GautDel/Woya-Game",
+    "webLink": "http://www.partummedia.com/woya",
+    "tech": [
+      "HTML5",
+      "Canvas",
+      "SCSS",
+      "JS",
+      "Webpack "
+    ],
+    "para1": "A 2 player game - Must be run in CHROME.",
+    "para2": "An openclassrooms project built almost exclusively using HTML5 canvas and Javascript. All art and assets are created by me. While one of the hardest projects I've ever worked on, this project brought my mediocre JS skills to the next level."
+  },
+  {
+    "id": 5,
+    "name": "BonApp",
+    "img": "/images/bonApp.png",
+    "alt": "BonApp app",
+    "codeLink": "https://github.com/GautDel/BonApp",
+    "webLink": "http://www.partummedia.com/bonApp",
+    "tech": [
+      "HTML5",
+      "SCSS",
+      "JS",
+      "React "
+    ],
+    "para1": "A restaurant review app built in React.",
+    "para2": "My very first project built in React. It taught me a multitude of things, including how to work with external APIs as well as getting my feet wet with the all powerful React framework."
+  },
+  {
+    "id": 6,
+    "name": "Portfolio 2020",
+    "img": "/images/portfolio-2020.jpg",
+    "alt": "Portfolio 2020 website",
+    "codeLink": "https://github.com/GautDel/Portfolio-2020",
+    "webLink": "http://www.gautdel.com",
+    "tech": [
+      "HTML5",
+      "SCSS",
+      "JS",
+      "REACT",
+      "PHP "
+    ],
+    "para1": "My current portfolio.",
+    "para2": "While I have worked with React before, my 2020 iteration of my portfolio made me truly fall in love with the framework. The control and power it puts in your hands is unmatched. It has become my go-to frontend framework."
+  },
+  {
+    "id": 7,
+    "name": "Portfolio 2019",
+    "alt": "Portfolio 2019 website",
+    "img": "/images/portfolio-2019.jpg",
+    "codeLink": "https://github.com/GautDel/Portfolio-2019",
+    "webLink": "http://www.partummedia.com/portfolio2019",
+    "tech": [
+      "HTML5",
+      "SCSS",
+      "JS",
+      "PHP "
+    ],
+    "para1": "My 2019 iteration of my portfolio.",
+    "para2": "My very first portfolio / business website. All art, assets and code created by me. This project was incredibily fun to design and build. It taught me many valuable skills, especially having to do with responsiveness and working with a mobile-first perspective."
+  },
+  {
+    "id": 8,
+    "name": "Fire & Star",
+    "alt": "Fire and star website",
+    "img": "/images/fire-and-star.jpg",
+    "codeLink": "https://github.com/GautDel/Fire-and-Star",
+    "webLink": "http://www.partummedia.com/fireAndStar",
+    "tech": [
+      "HTML5",
+      "Canvas",
+      "CSS3",
+      "JS "
+    ],
+    "para1": "A random quote generator.",
+    "para2": "An Openclassrooms project built using Javascript and HTML5 canvas. One of my first projects using Javascript, which ended up making me fall in love with the language. All art and assets created by me."
+  },
+  {
+    "id": 9,
+    "name": "Chalets & Caviar",
+    "img": "/images/chalets.jpg",
+    "alt": "Chalets and caviar website",
+    "codeLink": "NA",
+    "webLink": "http://dev-chaletsaandcaviar.pantheonsite.io/",
+    "tech": [
+      "Wordpress",
+      "CSS "
+    ],
+    "para1": "A wordpress real estate website.",
+    "para2": "The first Openclassrooms project built using a pre-existing Wordpress theme coupled with custom CSS and plugins."
+  },
+  {
+    "id": 9,
+    "name": "Brooklyn",
+    "img": "/images/brooklyn.jpg",
+    "alt": "Brooklyn website",
+    "codeLink": "https://github.com/GautDel/Brooklyn",
+    "webLink": "http://www.partummedia.com/brooklynFilmFestival",
+    "tech": [
+      "HTML5",
+      "CSS",
+      "Bootstrap "
+    ],
+    "para1": "A website created for a fictional film festival.",
+    "para2": "An introductory Openclassrooms project used to teach students how to manipulate Bootstrap. Other than code, this project taught me about project management, creating wireframes, multiple design layouts for the client to choose from, etc."
+  },
+  {
+    "id": 9,
+    "name": "Go Cycle",
+    "img": "/images/gocycle.jpg",
+    "alt": "Go cycle website",
+    "codeLink": "NA",
+    "webLink": "http://www.gocycletours.net",
+    "tech": [
+      "Wix",
+      "Some JS "
+    ],
+    "para1": "A Wix website for a client.",
+    "para2": "A client had an existing Wix website that needed revamping. She procured my services and we worked together to create a website that fit her and her company's needs."
+  },
+  {
+    "id": 9,
+    "name": "Misc Designs",
+    "img": "/images/designs.jpg",
+    "alt": "Designs",
+    "codeLink": "NA",
+    "webLink": "http://www.gautdel.com/designs.png",
+    "tech": [
+      "Affinity Photo",
+      "Affinity Designer "
+    ],
+    "para1": "Some miscellaneous designs.",
+    "para2": "A collection of miscellaneous designs that I've created for myself as well as real and fictional clients."
+  }
+]

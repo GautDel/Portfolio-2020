@@ -1,0 +1,53 @@
+/////////////////////////// LOGO STYLING ///////////////////////////
+.loader-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999;
+  border: 0.3rem solid rgba($neonRed, 0.3);
+  animation: energizeBorder 1s 2.1s forwards, hideBorder 0.5s 3.8s ease-in-out forwards;
+}
+
+.logo-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.svg {
+  transform: rotate(180deg);
+}
+
+.polygon {
+  animation: energize 0.3s 2.2s forwards, fadePolygon 0.4s 4.5s forwards;
+}
+
+.loader-letter {
+  position: absolute;
+  font-size: 10rem;
+  top: 46%;
+  left: 50%;
+  color: $neonRed;
+  transform: translate(-50%, -50%);
+  animation: energizeLetter 1.5s 2.4s forwards, fadeLetter 0.2s 4.3s forwards;
+  font-family: 'Orbitron', sans-serif;
+  opacity: 0;
+}
+
+
+/////////////////////////// ENERGY STYLING ///////////////////////////
+
+.energy {
+  background-color: $neonRed;
+  width: 0.5rem;
+  height: 0.6rem;
+  border-radius: 100rem;
+  border: 0.2rem solid $neonRed;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  animation: loadEnergy 2.5s forwards ease-in
+}

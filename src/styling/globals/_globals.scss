@@ -1,0 +1,47 @@
+
+.code-border {
+  border: 1px solid $grey;
+  text-align: center; 
+  padding: 1rem 2rem 1.2rem;
+}
+
+.code {
+  color: $neonRed;
+}
+
+.green {
+  font-weight: bold;
+  color: $neonGreen;
+}
+
+.bracket {
+  color: $neonRed;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.border-left {
+  margin: 1.6rem 0 0.8rem 0.2rem ;
+  padding-left: 1rem;
+  border-left: 0.1rem solid rgba($neonRed, 0.5);
+}
+
+.text-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  margin-bottom: 50%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
