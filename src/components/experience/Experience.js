@@ -10,7 +10,7 @@ class Experience extends Component {
       projects: [],
       project: {
         "name": "Fly Paper Shop",
-        "img": "/images/flypapershop.png",
+        "img": "/Portfolio-2020/images/flypapershop.png",
         "alt": "Business website",
         "codeLink": "https://github.com/GautDel/fly_paper",
         "webLink": "http://www.flypapershop.eu",
