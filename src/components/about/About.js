@@ -73,7 +73,7 @@ const About = () => {
           <div className="about-image-frame">
             <div className="filter"></div>
           </div>
-          <img src={window.location.origin + 'Portfolio-2020/images/me.jpg'} alt="Me" />
+          <img src={window.location.origin + '/Portfolio-2020/images/me.jpg'} alt="Me" />
         </div>
       </div>
     </div>
