@@ -5,7 +5,7 @@ const ExperienceDisplay = ({ project: { img, tech, para1, para2, codeLink, webLi
     <>
       <div className="image">
         {console.log(window.location.origin)}
-        <a href={webLink} target="_blank" rel="noopener noreferrer"><img src={`${window.location.origin}portfolio-2020/${img}`} alt={alt} />
+        <a href={webLink} target="_blank" rel="noopener noreferrer"><img src={`${window.location.origin}${img}`} alt={alt} />
           <div className="img-filter"></div></a>
       </div>
       <div className="tech ">{tech.join(" | ")}
