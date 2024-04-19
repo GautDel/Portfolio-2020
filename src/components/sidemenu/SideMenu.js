@@ -5,9 +5,9 @@ const SideMenu = () => {
   const renderMenuItems = () => {
     let menuItems = [
       {
-        icon: "Bg",
-        name: "My Blog Page",
-        link: "http://gautdel.com/"
+        icon: "Pt",
+        name: "My Latest Project",
+        link: "http://flypapershop.eu/"
       },
       {
         icon: "Gh",
@@ -15,19 +15,14 @@ const SideMenu = () => {
         link: "https://github.com/GautDel"
       },
       {
-        icon: "Mt",
-        name: "My Social",
-        link: "https://mastodon.social/@GautDel"
-      },
-      {
         icon: "Ln",
         name: "My LinkedIn",
         link: "https://ie.linkedin.com/in/gauthier-delalleau"
       },
       {
-        icon: "Pt",
-        name: "My Latest Project",
-        link: "http://flypapershop.eu/"
+        icon: "Mt",
+        name: "My Social",
+        link: "https://mastodon.social/@GautDel"
       }
     ]
 

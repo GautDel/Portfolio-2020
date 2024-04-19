@@ -174,7 +174,7 @@ class Form extends Component {
                   <span className="green">{browser}</span>
                 </p>
 
-                <p> If you're interested in contacting me, please fill out the form below <span className="code">(press enter / return on phone, to proceed)</span>.</p>
+                <p> Note: This form is disabled. contact me @ gaut.del@proton.me <span className="code">(press enter / return on phone, to proceed)</span>.</p>
 
 
                 {showName === true ? <div className="input-field">
