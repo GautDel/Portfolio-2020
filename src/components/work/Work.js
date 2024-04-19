@@ -55,7 +55,7 @@ const Work = ({ date, h, m, s }) => {
             <span className="bracket"> /&gt;</span>
           </h3>
           <div className="border-left">
-            <img src={window.location.origin + '/images/react.svg'} alt="What I'm Learning" />
+            <img src={window.location.origin + '/images/Go-Logo_Blue.svg'} alt="What I'm Learning" />
           </div>
           <h3>
             <span className="bracket">&lt; </span>

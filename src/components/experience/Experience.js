@@ -9,21 +9,21 @@ class Experience extends Component {
     this.state = {
       projects: [],
       project: {
-        name: "PartumMedia",
-        img: "/images/partummedia.jpg",
-        alt: "Business website",
-        codeLink: "https://github.com/GautDel/PartumMedia-Business-Site",
-        webLink: "http://www.partummedia.com",
-        tech: [
-          "HTML5",
-          "Bootstrap",
-          "SCSS",
-          "JS",
-          "PHP "
-        ],
-        para1: "My personal business site.",
-        para2: "One of my latest projects. Creating this website taught me many valuable lessons, such as color psychology for call-to-actions, fonts, and backgrounds as well as researching client necessities and providing them with a UI that meets those needs."
-      },
+        "name": "Fly Paper Shop",
+        "img": "/images/flypapershop.png",
+        "alt": "Business website",
+        "codeLink": "https://github.com/GautDel/fly_paper",
+        "webLink": "http://www.flypapershop.eu",
+        "tech": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Docker",
+        "TailwindCSS"
+      ],
+      "para1": "My personal business site.",
+      "para2": "One of my latest projects. Creating this website taught me many valuable lessons, such as color psychology for call-to-actions, fonts, and backgrounds as well as researching client necessities and providing them with a UI that meets those needs."
+  },
       active: 0
     }
   }

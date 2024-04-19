@@ -14,19 +14,19 @@ const About = () => {
           <div className="border-left">
             <p>
               <span className="bracket">&lt; </span>
-              Hello! I'm Gauthier, a 26 year old front-end web developer currently living in Cork, Ireland. I love designing and building non-intrusive, blazingly fast web applications to provide the best user-experience possible.
+              Hello! I'm Gauthier, a 30 year old full-stack web developer currently living in the south of France. I love designing and building non-intrusive, blazingly fast web applications to provide the best user-experience possible.
               <span className="bracket"> /&gt;</span>
             </p>
 
             <p>
               <span className="bracket">&lt; </span>
-              While my current experience is primarily within the front-end sector, I am continually working to become a full-stack developer.
+              While my current experience is primarily to do with JavaScript & PHP, I've come to fall in love with Golang.
               <span className="bracket"> /&gt;</span>
             </p>
 
             <p>
               <span className="bracket">&lt; </span>
-              Here are some technologies I've worked with and am currently learning.
+              Here's my tech stack.
               <span className="bracket"> /&gt;</span>
             </p>
 
@@ -34,23 +34,29 @@ const About = () => {
               <span className="bracket">&lt; </span>
 
               <span className="technologies">
-                HTML5
-                <span className="code"> | </span>
-                CSS3
-                <span className="code"> | </span>
-                SCSS
-                <span className="code"> | </span>
                 JavaScript
+                <span className="code"> | </span>
+                TypeScript
                 <span className="code"> | </span>
                 React
                 <span className="code"> | </span>
-                PHP
+                NodeJS
                 <span className="code"> | </span>
-                Vue
+                PHP 
                 <span className="code"> | </span>
-                Node.js
+                Laravel
                 <span className="code"> | </span>
-                Express
+                Golang &#x3c;3
+                <span className="code"> | </span>
+                SCSS/TailwindCSS
+                <span className="code"> | </span>
+                PostgreSQL/MYSQL
+                <span className="code"> | </span>
+                Linux
+                <span className="code"> | </span>
+                Docker/Proxmox
+                <span className="code"> | </span>
+                Vim
                 </span>
 
               <span className="bracket"> /&gt;</span>

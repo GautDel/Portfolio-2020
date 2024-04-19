@@ -75,6 +75,14 @@
       }
     }
 
+    .form-button-cont {
+      flex-direction: column !important;
+      align-items: center;
+       .mb-4{
+        margin-bottom: 4rem;
+      }
+    }
+
     .code {
       font-weight: 400;
     }

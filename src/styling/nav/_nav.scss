@@ -20,7 +20,7 @@
     height: 100%;
     transform: translateX(-50%);
     content: "";
-    border-bottom: 0.2rem solid rgba($neonRed, 0.1);
+    border-bottom: 0.1rem solid rgba($neonRed, 1);
     z-index: -1;
   }
 
@@ -75,6 +75,8 @@ nav  {
     animation: typing 2.4s 1.5s steps(8, end) backwards;
     white-space: nowrap;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 60%;
     left: 4rem;
   }

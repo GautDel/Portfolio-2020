@@ -78,20 +78,7 @@
         width: 100%;
       }
 
-      .img-filter {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        transition: all 0.5s;
-        background-color: rgba($neonRed, 0.3);
 
-        &:hover {
-          transform: scale(1.08);
-          background-color: rgba($neonRed, 0);
-        }
-      }
     }
 
     .tech {
@@ -105,6 +92,7 @@
       .code-border {
         display: inline-block;
         padding: 0 1rem;
+        margin-left: 1rem;  
         margin-bottom: 1rem;
         transition: all 0.2s;
         color: $neonGreen;

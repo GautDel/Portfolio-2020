@@ -11,7 +11,7 @@
   justify-content: center;
   
   .email {
-    border: 0.2rem solid rgba($neonRed, 0.1);
+    border: 0.1rem solid rgba($neonRed, 1);
     color: #ffffff;
     font-size: 1.6rem;
     padding: 1rem;
@@ -20,7 +20,7 @@
 
     &:hover {
       color: $neonGreen;
-      border: 0.2rem solid rgba($neonRed, 1);
+      border: 0.1rem solid rgba($neonRed, 1);
       transform: scale(1.03);
     }
   }

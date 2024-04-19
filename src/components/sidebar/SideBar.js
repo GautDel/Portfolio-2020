@@ -4,7 +4,7 @@ const SideBar = () => {
   return (
     <>
       <div className="side-bar">
-        <div className="email">contact@gautdel.com</div>
+        <div className="email">gaut.del@proton.me</div>
         <div className="bar"></div>
       </div>
     </>

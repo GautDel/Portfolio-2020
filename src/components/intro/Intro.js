@@ -26,7 +26,7 @@ const Intro = () => {
 
               <div className="border-left">
                 <p>
-                  <span className="bracket">&lt;</span> I'm a web developer based out of Cork, Ireland who is passionate about designing and building beautiful, intuitive and pixel-perfect web experiences. <span className="bracket">/&gt;</span>
+                  <span className="bracket">&lt;</span> I'm a web developer based out of the south of France who is passionate about designing and building beautiful, intuitive and pixel-perfect web experiences. <span className="bracket">/&gt;</span>
                 </p>
                 <p>
                   <span className="bracket">&lt;</span> You will find more about me below, including some of my work. <span className="bracket">/&gt;</span>

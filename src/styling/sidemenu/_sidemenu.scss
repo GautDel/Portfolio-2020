@@ -10,7 +10,7 @@
     left: 2%;
     padding: 2rem 1rem;
     transform: translateY(-50%);
-    border: 1px solid rgba($neonRed, 0.1);
+    border: 1px solid rgba($neonRed, 1);
     animation: slideSidemenu 1s 2s backwards;
 
   .side-menu-item {
@@ -35,8 +35,8 @@
       width: 40%;
       height: 40%;
       content: "";
-      border-top: 3px solid rgba($neonRed, 0.3);
-      border-right: 3px solid rgba($neonRed, 0.3);
+      border-top: 3px solid rgba($neonRed, 1);
+      border-right: 3px solid rgba($neonRed, 1);
       transition: all 0.5s;
       z-index: -1;
     }
@@ -48,8 +48,8 @@
       width: 40%;
       height: 40%;
       content: "";
-      border-bottom: 3px solid rgba($neonRed, 0.3);
-      border-left: 3px solid rgba($neonRed, 0.3);
+      border-bottom: 3px solid rgba($neonRed, 1);
+      border-left: 3px solid rgba($neonRed, 1);
       transition: all 0.5s;
       z-index: -1;
     }

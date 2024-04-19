@@ -1,7 +1,7 @@
 .about-container {
   .technologies {
     color: $neonGreen;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   .about-image {
@@ -9,22 +9,6 @@
     position: relative;
     margin-top: 10rem;
     width: 60%;
-    
-
-    .filter {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba($neonRed, 0.3);
-      z-index: 2;
-      transition: all 0.3s;
-
-      &:hover {
-        background-color: rgba($neonRed, 0);
-      }
-    }
     
     img {
       width: 100%;

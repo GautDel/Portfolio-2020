@@ -7,17 +7,17 @@ const SideMenu = () => {
       {
         icon: "Bg",
         name: "My Blog Page",
-        link: "http://www.corkblog.ie"
+        link: "http://gautdel.com/"
       },
       {
-        icon: "Pa",
-        name: "My Business Site",
-        link: "http://www.partummedia.com"
+        icon: "Gh",
+        name: "My Github",
+        link: "https://github.com/GautDel"
       },
       {
-        icon: "Im",
-        name: "My Instagram",
-        link: "https://www.instagram.com/gautdel/"
+        icon: "Mt",
+        name: "My Social",
+        link: "https://mastodon.social/@GautDel"
       },
       {
         icon: "Ln",
@@ -27,7 +27,7 @@ const SideMenu = () => {
       {
         icon: "Pt",
         name: "My Latest Project",
-        link: "http://www.gautdel.com/project"
+        link: "http://flypapershop.eu/"
       }
     ]
 

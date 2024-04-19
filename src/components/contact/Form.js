@@ -141,25 +141,6 @@ class Form extends Component {
     }
 
     e.preventDefault()
-
-    axios({
-      method: "POST",
-      url: "https://www.gautdel.com/mail.php",
-      data: this.state
-    }).then((response) => {
-      if (response.data.status === 'success') {
-
-        this.setState({
-          sentAlert: "Your message has been sent! I usually respond within 24 - 48 hours",
-        })
-        this.resetForm()
-
-      } else if (response.data.status === "fail") {
-        this.setState({
-          alert: response.data.error
-        })
-      }
-    })
   }
 
   resetForm() {
@@ -220,8 +201,9 @@ class Form extends Component {
                 </div>
 
 
-                <div className={showValid === true ? "show input-field" : "hide input-field"}>
-                  <button type="submit" className="submit" name="submit">Click to send message</button>
+                <div className={showValid === true ? "show input-field form-button-cont" : "hide input-field form-button-cont"}>
+                  <button type="submit" className="submit mb-4" name="submit">Form is disabled</button>
+                  <a className="green" href="mailto:gaut.del@proton.me" >email me @ gaut.del@proton.me</a>
                 </div>
 
 
@@ -247,11 +229,11 @@ class Form extends Component {
             <div className="border-left">
               <p className="green">
                 <span className="code">Email </span>
-                gauthier@partummedia.com
+                gaut.del@proton.me
               </p>
               <p className="green">
                 <span className="code">Phone </span>
-                (085) 746 0852
+                +33 06 30 14 92 55
               </p>
               <p className="green">
                 <span className="code">LinkedIn </span>
