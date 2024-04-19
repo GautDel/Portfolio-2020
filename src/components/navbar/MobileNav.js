@@ -23,7 +23,7 @@ const MobileNav = () => {
             <a href="#contact">contact<span className="code">();</span></a>
           </li>
           <li>
-            <a href="http://www.gautdel.com/cv" className="code-border"><span className="code">$ cd</span> -CV <span className="code mobile-caret"> █</span></a>
+            <a  className="code-border"><span className="code">$ cd</span> -CV <span className="code mobile-caret"> █</span></a>
           </li>
         </ul>
       </nav>

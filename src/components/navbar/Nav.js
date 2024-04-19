@@ -20,7 +20,7 @@ const Nav = ({ show }) => {
             <a href="#contact">contact<span className="code">();</span></a>
           </li>
           <li>
-            <a href="http://www.gautdel.com/cv" className="typewriter-container">
+            <a  className="typewriter-container">
               <span className="code sudo">$ </span>
               <p className="typewriter">
                 <span className="code ">cd</span> -CV
