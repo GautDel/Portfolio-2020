@@ -525,7 +525,7 @@ a, button {
   align-items: center;
   border: 0.1rem solid rgba(255, 0, 85, 0.5);
   overflow: hidden;
-  height: 80rem !important; }
+  height: 70rem !important; }
   .experience-container .ui-container .buttons-container {
     display: flex;
     flex-direction: column;
